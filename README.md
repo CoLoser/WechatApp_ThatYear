@@ -4,7 +4,7 @@
 [1. 微信简易教程](https://developers.weixin.qq.com/miniprogram/dev/quickstart/basic/file.html)</br>
 [2. 知乎经典答案](https://www.zhihu.com/question/50907897)</br>
 [3. 视频教程](http://www.php.cn/course/297.html)</br>
-[4. 优质资源](https://github.com/CoLoser/awesome-wechat-weapp)
+[4. 优质资源](https://github.com/CoLoser/awesome-wechat-weapp)</br>
 [5. blog链接](https://blog.csdn.net/qq_37753409/article/details/79998051)
 ## 微信小程序的结构:
    ![结构](https://github.com/CoLoser/WechatApp_ThatYear/blob/master/imags/demo.png)
