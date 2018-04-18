@@ -11,7 +11,7 @@ App({
     wx.request({
       url: 'http://api.tianapi.com/txapi/lishi/?key=APIKEY&date=date',
       data:{
-        'key': "3126e13281cf9e4e3bc74884cdf2f30c",
+        'key': "填入自己的天行APIKEY",
         'num': 10,
         'date': date
       },
