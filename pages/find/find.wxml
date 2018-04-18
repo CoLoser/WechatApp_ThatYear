@@ -1,0 +1,8 @@
+<!--pages/find/find.wxml-->
+<view>
+   <image src='../../imags/findPage.jpg' class='findImage'></image>
+  <view class="section">
+    <input type="digit" placeholder="输入日期, 如0101表示1月1号" bindinput='inputText'/>
+    <button bindtap='inputBtn' >查询</button>
+  </view>
+</view>

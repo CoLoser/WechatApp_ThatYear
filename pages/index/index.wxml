@@ -1,0 +1,13 @@
+<scroll-view scroll-y="true" bindscroll="scroll">
+  <loading hidden = "{{hide}}">加载中...</loading> 
+    <image src='../../imags/homePage.jpg' class='homeImage' bindtap='newsDetail'></image>
+    <view class='news-field-lsdate'>
+      {{randomNews.lsdate}} :
+    </view>
+    <view class='news-field-title'>
+      {{randomNews.title}}
+    </view>
+  <button class='nextDay' bindtap='last'>前一天</button>
+  <button class='curDay' bindtap='cur'>今天</button>
+  <button class='lastDay' bindtap='next'>后一天</button>
+</scroll-view>

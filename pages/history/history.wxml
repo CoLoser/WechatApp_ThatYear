@@ -1,0 +1,12 @@
+<!--pages/history/history.wxml-->
+<scroll-view scroll-y="true" bindscroll="scroll" class='text-field'>
+  <loading hidden = "{{hide}}">加载中...</loading>
+  <block class='text-field-dital' wx:for="{{newsInfo.newslist}}" wx:key='item'>
+    <view class='news-field-lsdate'>
+      {{item.lsdate}} :
+    </view>
+    <view class='news-field-title'>
+      {{item.title}}
+    </view>
+  </block>
+</scroll-view>
