@@ -116,13 +116,16 @@
 }
 ```
 
-图片预览: </br>
+### 4. utils.js
+<p>定义了一些工具, 比如获取时间</p>
+
+### 图片预览: </br>
 ![example01](https://github.com/CoLoser/WechatApp_ThatYear/blob/master/imags/example1.png) 
 ![exmaple02](https://github.com/CoLoser/WechatApp_ThatYear/blob/master/imags/example2.png)
 </br>
 
 这里的数据接口使用天行数据的API, 通过请求返回数据.</br>
-[数据接口使用天行API](https://www.tianapi.com/)
+### [数据接口使用天行API](https://www.tianapi.com/)
 ![tianAPI](https://github.com/CoLoser/WechatApp_ThatYear/blob/master/imags/API01.png)
 ![tianAPI](https://github.com/CoLoser/WechatApp_ThatYear/blob/master/imags/API02.png)
 申请账号, 选择API KEY 在微信小程序中进行request, 请求:</br>
